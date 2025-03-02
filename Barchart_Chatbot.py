@@ -105,7 +105,7 @@ def save_all_sessions():
 atexit.register(save_all_sessions)
 
 # Specify vector path
-vector_path = "/Users/karanmehta/Desktop/University of Chicago/Capstone Project - Barchart/Final Test/Code" # Update this as needed for your directory structure
+vector_path = "Barchart/Final Test/Code" # Update this as needed for your directory structure
 vectordb_folder = vector_path
 index_name = "faiss_index"
 
