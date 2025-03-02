@@ -65,7 +65,7 @@ warnings.filterwarnings("ignore")
 # bucket = storage_client.bucket(bucket_name)
 # print(f"Bucket {bucket.name} connected.")
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "sk-proj"
 
 llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0, streaming=True)
 
